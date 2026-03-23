@@ -1,12 +1,7 @@
 print('mayar')
 
 
-'''
-mayar alhasani 
-group 5 
-id 446002675 
 
-'''
 
 # h = HashTableChaining(4)
 # hh = LinearProbingHashTable()
