@@ -1,9 +1,4 @@
 print('mayar')
-'''
-mayara sutlat alhasani
-446002675
-group5
-'''
 
 def main():
     print('mayar')
