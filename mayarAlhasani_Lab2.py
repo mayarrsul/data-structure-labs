@@ -1,8 +1,3 @@
-'''
-name mayar alhasani
-id 446002675
-group 5
-'''
 
 
 nos = int(input('how many student do you have'))
