@@ -1,13 +1,6 @@
 import random , time
 print('start point')
 
-'''
-mayar alhasani 
-group 5 
-id 446002675
-'''
-
-
 
 def main():
 
