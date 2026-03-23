@@ -1,0 +1,61 @@
+print ('mayar')
+
+def main ():
+    print ('mayar')
+    mer= Stack()
+    mer.push('mayar')
+    mer.push('lamar')
+    mer.push('anoud')
+
+
+    print('the top element is :' , print(mer.pop()))
+    
+    print('the top elemnt is : ' , mer.peek())
+
+    
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def is_empty(self):
+        return len(self.items) == 0
+    
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop() 
+        else:
+            return "Stack is empty!"
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+        else:
+            return "Stack is empty!"    
+    
+
+
+
+'''
+stack = Stack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+print("Top element:", stack.peek()) # Output: 30
+print("Stack size:", stack.size()) # Output: 3
+print("Removed:", stack.pop()) # Output: 30
+print("Removed:", stack.pop()) # Output: 20
+print("Is stack empty?", stack.is_empty()) 
+
+'''
+
+
+
+
+main()
+
+
+
+
+
